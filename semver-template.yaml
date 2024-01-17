@@ -1,0 +1,7 @@
+schema: olm.semver
+generatemajorchannels: true
+generateminorchannels: false
+stable:
+  bundles:
+    - image: registry.redhat.io/rhbk/keycloak-operator-bundle@sha256:47323bf5e0d1ec70bfec6d7dd476d1076d879d26cc166af451579e79a56046ec # v22.0.8-opr.1
+    - image: registry.redhat.io/rhbk/keycloak-operator-bundle@sha256:95af3ba537cf925f0359d54c7cd6d1dc360c9f109dcdd79322e9eb981c9b1ec6 # v22.0.7-opr.1

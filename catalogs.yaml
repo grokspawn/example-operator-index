@@ -1,0 +1,32 @@
+schema: olm.composite.catalogs
+catalogs:
+- name: v4.10
+  destination:
+    workingDir: catalog/v4.10
+  builders:
+    - olm.builder.semver
+- name: v4.11
+  destination:
+    workingDir: catalog/v4.11
+  builders:
+    - olm.builder.semver
+- name: v4.12
+  destination:
+    workingDir: catalog/v4.12
+  builders:
+    - olm.builder.semver
+- name: v4.13
+  destination:
+    workingDir: catalog/v4.13
+  builders:
+    - olm.builder.semver
+- name: v4.14
+  destination:
+    workingDir: catalog/v4.14
+  builders:
+    - olm.builder.semver
+- name: v4.15
+  destination:
+    workingDir: catalog/v4.15
+  builders:
+    - olm.builder.semver
